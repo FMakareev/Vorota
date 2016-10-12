@@ -1,0 +1,279 @@
+@media screen and (max-width: 1270px) {
+    .container {
+        max-width: 1010px;
+    }
+    .header__title {
+        margin: 10px 0;
+    }
+    .menu__item {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+    .menu__item-text__right,
+    .menu__item-text__left {
+        text-align: center;
+    }
+    .main {
+        width: 75%;
+    }
+    .slider__container {
+        width: 97%;
+    }
+    .right__sidebar-none{
+        display: none;
+    }
+    .right__sidebar {
+        position: fixed;
+        top: 10%;
+        right: -247px;
+        z-index: 10;
+    }
+    .right__sidebar:before {
+        content: none;
+    }
+    .right__sidebar-label {
+        display: block;
+    }
+    .right__sidebar-input:checked + .right__sidebar-label + .right__sidebar {
+        right: 0;
+    }
+}
+@media screen and (max-width: 1010px) {
+    .header {
+        height: 180px;
+        text-align: center;
+        position: relative;
+        z-index: 10;
+        background: #fff;
+    }
+    .main {
+        position: relative;
+        z-index: 1;
+    }
+    .header__contact {
+        float: none;
+        display: inline-block;
+        height: auto;
+        width: initial;
+        margin-bottom: 10px;
+    }
+    .contact__tel,
+    .contact__email {
+        margin: 0;
+    }
+    .logo {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        width: 170px;
+    }
+    .logo__link {
+        margin: 0;
+    }
+    .logo__img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .header__menu {
+        display: none;
+    }
+    .contact__tel {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .contact__email {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .contact__graph {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .basket__bottom {
+        display: none;
+    }
+    .header__basket {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        position: absolute;
+        top: 71%;
+        right: 2%;
+    }
+    .basket__top-link {
+        color: transparent;
+        display: block;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+    }
+    .left__sidebar-title {
+        display: none;
+    }
+    .left__sidebar-label {
+        display: block;
+        position: absolute;
+        top: 69%;
+        left: 2.4%;
+        z-index: 100;
+        width: 50px;
+        height: 40px;
+        background: linear-gradient(to bottom, #000 0%, #000 20%, transparent 20%, transparent 40%, #000 40%, #000 60%, transparent 60%, transparent 80%, #000 80%, #000 100%);
+    }
+    .left__sidebar {
+        position: absolute;
+        top: 180px;
+        z-index: 5;
+        background: #fff;
+        left: -250px;
+        //        transition: left 0.5s;
+    }
+    .main {
+        width: 100%;
+    }
+    .main__content-catalog {
+        float: none;
+        margin: 0 auto;
+    }
+    .catalog__pos {
+        padding-left: 10px;
+    }
+    .catalog__list {
+        padding: 0;
+    }
+    .services__list {
+        max-width: 757px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .footer__left {
+        width: 50%;
+        float: left;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    .footer__right {
+        padding: 10px 0 20px 30px;
+    }
+    .address__list,
+    .footer__contact {
+        margin: 0;
+    }
+    .footer__menu {
+        display: block;
+        width: 40%;
+        float: right;
+        height: inherit;
+        padding: 20px 30px 20px 0;
+        text-align: left
+    }
+}
+@media screen and (max-width:759px) {
+    .services__list {
+        max-width: 497px;
+    }
+    .cart__left {
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    .cart__price {
+        margin: 20px 0 10px 0;
+    }
+    .cart__right {
+        float: left;
+    }
+}
+@media screen and (max-width:749px) {
+    .catalog__list {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    .services__list {
+        text-align: center;
+        padding: 0;
+    }
+    .slider__container {
+        display: none;
+    }
+    .footer__left,
+    .footer__right {
+        width: 60%;
+        float: left;
+        box-sizing: border-box;
+        padding: 10px 0 10px 20px;
+    }
+    .footer__contact,
+    .address__list {
+        margin: 0;
+    }
+    .footer__menu {
+        display: block;
+        float: right;
+        width: 40%;
+        height: auto;
+        padding-right: 20px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    .menu__item {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: right;
+    }
+    .catalog__pos {
+        padding-left: 20px;
+    }
+    .catalog__list {
+        text-align: center;
+        padding: 0;
+    }
+    .catalog__item {
+        float: none;
+    }
+    .main__content-cart {
+        padding: 0;
+        text-align: center;
+    }
+    .cart__left,
+    .cart__right {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        float: none;
+        display: inline-block;
+    }
+    .cart__left {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .cart__list {
+        text-align: left;
+    }
+    .cart__price {
+        margin: 20px 0 10px 0;
+    }
+    .cart__desc {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .options__item-col1 {
+        display: inline-block;
+        width: 100%;
+    }
+    .home__page-bottom {
+        padding: 25px 10px 0 10px;
+        box-sizing: border-box;
+    }
+}
+

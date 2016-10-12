@@ -1,0 +1,16 @@
+$c_blue: #236565;
+$c_orange: #b03c11;
+$c_green: #447613;
+$c_pink: #daa38f;
+$c_gray: #e0e9e9;
+$c_purpl: #a8b0d5;
+@import 'layout/mixin';
+@import 'layout/fonts';
+@import 'layout/adjustment';
+@import 'section/header';
+@import 'section/leftsidebar';
+@import 'section/home';
+@import 'section/content';
+@import 'section/rightsidebar';
+@import 'section/footer';
+@import 'section/mediaheadr';

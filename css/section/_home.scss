@@ -1,0 +1,105 @@
+.home__page {
+    //    padding-left: 15px;
+}
+.slider__container {
+    width: 100%;
+    max-height: 360px;    
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 15px;
+    max-width: 995px;
+}
+.services__list {
+    padding-top: 25px;
+    @extend %clearfix;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.services__item {
+    display: inline-block;
+    width: 230px;
+    height: 262px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0px 0px 8.19px 0.81px rgba(0, 0, 0, 0.23);
+    position: relative;   
+    margin: 0 8px 31px 8px;
+}
+.services__item-top {
+    padding: 19px 17px 0;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    height: 166px;
+}
+.services__img {
+    display: block;
+    width: 196px;
+    height: auto;
+    text-align: center;
+    &-pic {
+        display: inline-block;
+    }
+}
+.services__title {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: #b03c11;
+    box-sizing: border-box;
+    width: 245px;
+    height: 55px;
+    z-index: 5;
+    right: 7.5px;
+    box-shadow: 0px 0px 1px 0px black;
+    position: relative;
+    font: 16.56px/22px "TrebuchetMSBold";
+    &-text {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    &:before {
+        width: 0px;
+        content: "";
+        display: inline-block;
+        min-height: inherit;
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+.tringl {
+    display: block;
+    position: absolute;
+    width: 244px;
+    border: 10px solid transparent;
+    border-bottom-color: black;
+    box-sizing: border-box;
+    right: -7px;
+    top: 165px;
+}
+.home__page-bottom {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
+.home__page-title {
+    font: 18.75px/22px "TrebuchetMSBold";
+    color: #236565;
+}
+.gray__line {
+    display: inline-block;
+    width: 118px;
+    background: #b3b3b3;
+    margin: 30px 0 25px 0;
+}
+.home__page-text {
+    font: 19px/24px "TrebuchetMSRegular";
+    color: #333333;
+}
+.home__page-text_tit {
+    margin: 0;
+}
+.flex-control-paging li a{
+        background: #b03c11;
+}

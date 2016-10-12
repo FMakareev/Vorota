@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.41);
+    margin-bottom: 38px;
+}
+.logo {
+//    width: 220px;
+        width: 17.4603175%;
+    height: 150px;
+    float: left;
+}
+.logo__link {
+    display: block;
+    margin-top: 19px;
+}
+.header__menu {
+//    width: 440px;
+        width: 34.9206349%;   
+    height: 150px;
+    text-align: center;
+    float: left;
+}
+.header__title {
+    font: 20.83px/25px "GeorgiaBold";
+    color: $c_orange;
+    margin: 37px 15px 20px 0;
+    display: inline-block;
+}
+.menu__list {
+//    width: 360px;
+        width: 81.8181818%;
+    height: 50px;
+    margin: 0 auto;
+}
+.menu__item {
+    display: block;
+    float: left;
+//    width: 120px;
+        width: 33.3333333%;
+}
+.menu__item-text__right {
+    text-align: right;
+}
+.menu__item-text__left {
+    text-align: left;
+}
+.menu__link {
+    color: #3e3e3e;
+    font: 16.67px/25px "MyriadProRegular";
+}
+.header__contact {
+//    width: 240px;
+    //    width: 19.047619%;
+        width: 23.8095238%;
+    height: 150px;
+    float: left;
+//    margin-left: 60px;
+    text-align: right;
+}
+.contact__list {
+    width: 240px;
+    display: inline-block;
+    text-align: center;
+}
+.contact__tel {
+    font: 29.17px/33.33px "MyriadProBold";
+    color: $c_orange;
+    display: inline-block;
+    margin-top: 31px;
+}
+.contact__email {
+    font: 25px/33.33px "MyriadProBold";
+    color: $c_blue;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.contact__graph {
+    font: 20.83px/33.33px "MyriadProRegular";
+    color: #656565;
+    display: inline-block;
+}
+.header__basket {
+//    width: 225px;
+        width: 17.8571429%;
+    height: 150px;
+    float: right;
+}
+.basket__top {
+    margin-bottom: 8px;
+}
+.basket__top-link {
+    font: 18.75px/20px "MyriadProBold";
+    color: #236565;
+    display: block;
+    width: 100%;
+    height: 23px;
+    padding: 37px 0 0 44px;
+    background: url(/image/icon/korzina_z_shop.png) no-repeat 0% 80%;
+}
+.basket__bottom {}
+.basket__item {
+    font: 17.92px/20.83px "MyriadProRegular";
+    color: #3e3e3e;
+}
+.basket__item-link {
+    color: #3e3e3e;
+}

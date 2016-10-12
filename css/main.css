@@ -1,0 +1,1351 @@
+@charset "UTF-8";
+.container:before, .main:before, .services__list:before, .container:after, .main:after, .services__list:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/*  font-family: "TrebuchetMSBold"; */
+@font-face {
+  font-family: "TrebuchetMSBold";
+  src: local("Trebuchet MS Bold");
+  src: url("/fonts/TrebuchetMS/TrebuchetMSBold/Trebuchet MS Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*  font-family: "TrebuchetMSBoldItalic"; */
+@font-face {
+  font-family: "TrebuchetMSBoldItalic";
+  src: local("Trebuchet MS Bold Italic");
+  src: url("/fonts/TrebuchetMS/TrebuchetMSBoldItalic/Trebuchet MS Bold Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*  font-family: "TrebuchetMSItalic"; */
+@font-face {
+  font-family: "TrebuchetMSItalic";
+  src: local("Trebuchet MS Italic");
+  src: url("/fonts/TrebuchetMS/TrebuchetMSItalic/Trebuchet MS Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*  font-family: "TrebuchetMSRegular"; */
+@font-face {
+  font-family: "TrebuchetMSRegular";
+  src: local("Trebuchet MS Regular");
+  src: url("/fonts/TrebuchetMS/TrebuchetMSRegular/Trebuchet MS Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*  font-family: "GeorgiaBold"; */
+@font-face {
+  font-family: "GeorgiaBold";
+  src: local("Georgia Bold");
+  src: url("/fonts/Georgia/GeorgiaBold/Georgia Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "Georgia Bold Italic"; */
+@font-face {
+  font-family: "GeorgiaBoldItalic";
+  src: local("Georgia Bold Italic");
+  src: url("/fonts/Georgia/GeorgiaBoldItalic/Georgia Bold Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "GeorgiaItalic"; */
+@font-face {
+  font-family: "GeorgiaItalic";
+  src: local("Georgia Italic");
+  src: url("/fonts/Georgia/GeorgiaItalic/Georgia Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "GeorgiaItalic"; */
+@font-face {
+  font-family: "Georgia Regular";
+  src: local("Georgia Regular");
+  src: url("/fonts/Georgia/GeorgiaRegular/Georgia Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+  font-family: "MyriadProRegular";
+  src: local("Myriad Pro Regular");
+  src: url("/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+  src: url("/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "MyriadProBold"; */
+@font-face {
+  font-family: "MyriadProBold";
+  src: local("Myriad Pro Bold");
+  src: url("/fonts/MyriadPro/MyriadProBold/MyriadProBold.eot");
+  src: url("/fonts/MyriadPro/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro/MyriadProBold/MyriadProBold.woff") format("woff"), url("/fonts/MyriadPro/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "MyriadProItalic"; */
+@font-face {
+  font-family: "MyriadProItalic";
+  src: local("Myriad Pro Italic");
+  src: url("/fonts/MyriadPro/MyriadProItalic/MyriadProItalic.eot");
+  src: url("/fonts/MyriadPro/MyriadProItalic/MyriadProItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro/MyriadProItalic/MyriadProItalic.woff") format("woff"), url("/fonts/MyriadPro/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+  font-family: "MyriadProSemiBold";
+  src: local("Myriad Pro Light");
+  src: url("/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.eot");
+  src: url("/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"), url("/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "MyriadProBoldItalic"; */
+@font-face {
+  font-family: "MyriadProBoldItalic";
+  src: local("Myriad Pro Bold Italic");
+  src: url("/fonts/MyriadPro/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+  src: url("/fonts/MyriadPro/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"), url("/fonts/MyriadPro/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "MyriadProSemiBoldItalic"; */
+@font-face {
+  font-family: "MyriadProSemiBoldItalic";
+  src: local("Myriad Pro Semi Bold Italic");
+  src: url("/fonts/MyriadPro/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+  src: url("/fonts/MyriadPro/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"), url("/fonts/MyriadPro/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper::after {
+  content: "";
+  height: 230px;
+  display: block;
+}
+
+.container {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  min-height: 230px;
+  margin-top: -230px;
+  position: relative;
+  background: #fff;
+  text-align: center;
+}
+
+.left__sidebar {
+  width: 250px;
+  float: left;
+}
+
+.main {
+  max-width: 1010px;
+  width: 100%;
+  float: left;
+  margin-bottom: 49px;
+}
+
+.main__content-catalog {
+  max-width: 760px;
+  float: left;
+}
+
+.main__content {
+  max-width: 760px;
+  float: left;
+}
+
+.main__content-cart {
+  padding-left: 40px;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.41);
+  margin-bottom: 38px;
+}
+
+.logo {
+  width: 17.4603175%;
+  height: 150px;
+  float: left;
+}
+
+.logo__link {
+  display: block;
+  margin-top: 19px;
+}
+
+.header__menu {
+  width: 34.9206349%;
+  height: 150px;
+  text-align: center;
+  float: left;
+}
+
+.header__title {
+  font: 20.83px/25px "GeorgiaBold";
+  color: #b03c11;
+  margin: 37px 15px 20px 0;
+  display: inline-block;
+}
+
+.menu__list {
+  width: 81.8181818%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.menu__item {
+  display: block;
+  float: left;
+  width: 33.3333333%;
+}
+
+.menu__item-text__right {
+  text-align: right;
+}
+
+.menu__item-text__left {
+  text-align: left;
+}
+
+.menu__link {
+  color: #3e3e3e;
+  font: 16.67px/25px "MyriadProRegular";
+}
+
+.header__contact {
+  width: 23.8095238%;
+  height: 150px;
+  float: left;
+  text-align: right;
+}
+
+.contact__list {
+  width: 240px;
+  display: inline-block;
+  text-align: center;
+}
+
+.contact__tel {
+  font: 29.17px/33.33px "MyriadProBold";
+  color: #b03c11;
+  display: inline-block;
+  margin-top: 31px;
+}
+
+.contact__email {
+  font: 25px/33.33px "MyriadProBold";
+  color: #236565;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.contact__graph {
+  font: 20.83px/33.33px "MyriadProRegular";
+  color: #656565;
+  display: inline-block;
+}
+
+.header__basket {
+  width: 17.8571429%;
+  height: 150px;
+  float: right;
+}
+
+.basket__top {
+  margin-bottom: 8px;
+}
+
+.basket__top-link {
+  font: 18.75px/20px "MyriadProBold";
+  color: #236565;
+  display: block;
+  width: 100%;
+  height: 23px;
+  padding: 37px 0 0 44px;
+  background: url(/image/icon/korzina_z_shop.png) no-repeat 0% 80%;
+}
+
+.basket__item {
+  font: 17.92px/20.83px "MyriadProRegular";
+  color: #3e3e3e;
+}
+
+.basket__item-link {
+  color: #3e3e3e;
+}
+
+.left__sidebar-title {
+  font: 18.75px/29.17px "TrebuchetMSRegular";
+  color: #333333;
+  height: 53px;
+  width: 100%;
+  text-align: left;
+}
+
+.left_sidebar-input {
+  display: none;
+}
+
+.left__sidebar-label {
+  display: none;
+}
+
+.nav__top-item {
+  margin-bottom: 3px;
+}
+
+.nav__top-link {
+  display: block;
+  font: 15.42px/18px "TrebuchetMSRegular";
+  border-bottom: 2px solid #878787;
+  background: #daa38f;
+  min-height: 34px;
+  box-sizing: border-box;
+  padding: 7px 0 7px 8px;
+  color: black;
+  cursor: pointer;
+}
+
+.nav__top-link:hover {
+  background: #a8b0d5;
+}
+
+.nav__top-input {
+  display: none;
+}
+
+.nav__top-dropdown {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  position: relative;
+  margin-top: 0px;
+}
+
+.nav__top-item:hover .nav__top-dropdown {
+  height: auto;
+  overflow: visible;
+  opacity: 1;
+  position: relative;
+  margin-top: 3px;
+}
+
+.nav__top-dropdown_link {
+  display: block;
+  font: 13.33px/27px "TrebuchetMSRegular";
+  color: #333333;
+  background: #e0e9e9;
+  border-bottom: 2px solid #dbdbdb;
+  margin-bottom: 2px;
+  text-align: left;
+  padding-left: 43px;
+}
+
+.nav__bottom-input {
+  display: none;
+}
+
+.nav__bottom-text {
+  font: 18.75px/54px "TrebuchetMSRegular";
+  border-bottom: 2px solid black;
+  color: #fff;
+  display: block;
+  height: 57px;
+  box-sizing: border-box;
+  padding: 0 0 0 8px;
+  background: #447613 url(/image/icon/icon_drop-down.png) no-repeat 92% 43%;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.nav__bottom-dropdown {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  position: relative;
+}
+
+.nav__bottom-item {
+  margin-bottom: 3px;
+}
+
+.nav__bottom-link {
+  display: block;
+  font: 15.42px/18px "TrebuchetMSRegular";
+  border-bottom: 2px solid #dbdbdb;
+  background: #e0e9e9;
+  min-height: 34px;
+  box-sizing: border-box;
+  padding: 7px 0 7px 8px;
+  color: black;
+}
+
+.nav__bottom-input:checked + .nav__bottom-text + .nav__bottom-dropdown {
+  height: auto;
+  overflow: visible;
+  opacity: 1;
+  position: relative;
+}
+
+.slider__container {
+  width: 100%;
+  max-height: 360px;
+  height: 100%;
+  box-sizing: border-box;
+  margin-left: 15px;
+  max-width: 995px;
+}
+
+.services__list {
+  padding-top: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.services__item {
+  display: inline-block;
+  width: 230px;
+  height: 262px;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0px 0px 8.19px 0.81px rgba(0, 0, 0, 0.23);
+  position: relative;
+  margin: 0 8px 31px 8px;
+}
+
+.services__item-top {
+  padding: 19px 17px 0;
+  background: #fff;
+  position: relative;
+  z-index: 10;
+  height: 166px;
+}
+
+.services__img {
+  display: block;
+  width: 196px;
+  height: auto;
+  text-align: center;
+}
+
+.services__img-pic {
+  display: inline-block;
+}
+
+.services__title {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: #b03c11;
+  box-sizing: border-box;
+  width: 245px;
+  height: 55px;
+  z-index: 5;
+  right: 7.5px;
+  box-shadow: 0px 0px 1px 0px black;
+  position: relative;
+  font: 16.56px/22px "TrebuchetMSBold";
+}
+
+.services__title-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.services__title:before {
+  width: 0px;
+  content: "";
+  display: inline-block;
+  min-height: inherit;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.tringl {
+  display: block;
+  position: absolute;
+  width: 244px;
+  border: 10px solid transparent;
+  border-bottom-color: black;
+  box-sizing: border-box;
+  right: -7px;
+  top: 165px;
+}
+
+.home__page-bottom {
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.home__page-title {
+  font: 18.75px/22px "TrebuchetMSBold";
+  color: #236565;
+}
+
+.gray__line {
+  display: inline-block;
+  width: 118px;
+  background: #b3b3b3;
+  margin: 30px 0 25px 0;
+}
+
+.home__page-text {
+  font: 19px/24px "TrebuchetMSRegular";
+  color: #333333;
+}
+
+.home__page-text_tit {
+  margin: 0;
+}
+
+.flex-control-paging li a {
+  background: #b03c11;
+}
+
+.catalog__pos {
+  height: 53px;
+  width: 100%;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+.catalog__pos-item {
+  display: inline-block;
+}
+
+.catalog__pos-link {
+  font: 18.75px "TrebuchetMSRegular";
+  color: #333333;
+}
+
+/* СТРАНИЦА с каталогом */
+.catalog__list {
+  padding: 0 0 0 10px;
+  width: 100%;
+}
+
+.catalog__list:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  display: inline-block;
+}
+
+.catalog__item {
+  width: 230px;
+  min-height: 420px;
+  float: left;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0px 0px 8.19px 0.81px rgba(0, 0, 0, 0.23);
+  margin: 0 10px 44px;
+}
+
+.catalog__item-top {
+  min-height: 240px;
+}
+
+.catalog__item-pic {
+  width: 230px;
+  height: 186px;
+  border: 8px solid #fff;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 3;
+}
+
+.catalog__item-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.catalog__item-title {
+  color: #fff;
+  text-align: center;
+  background: #236565;
+  box-sizing: border-box;
+  width: 244px;
+  height: 55px;
+  z-index: 5;
+  right: 7px;
+  box-shadow: 0px 0px 1px 0px black;
+  position: relative;
+  font: 16.53px/22px "TrebuchetMSBold";
+}
+
+.catalog__item-title_text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.catalog__item-title:before {
+  /* для IE8+ */
+  width: 0px;
+  content: "";
+  display: inline-block;
+  min-height: inherit;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.catalog__item .tringl {
+  display: block;
+  position: absolute;
+  width: 244px;
+  border: 10px solid transparent;
+  border-bottom-color: black;
+  box-sizing: border-box;
+  right: -7px;
+  top: 166px;
+}
+
+.catalog__item-bottom {
+  text-align: center;
+}
+
+.catalog__item-desc {
+  padding-top: 13px;
+}
+
+.catalog__item-text {
+  font: 14.21px "TrebuchetMSBold";
+  color: #333333;
+  width: 100%;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.catalog__item-price {
+  font: 26.44px "TrebuchetMSBold";
+  color: #b03c11;
+  display: inline-block;
+  margin: 10px 0 20px 0;
+}
+
+.catalog__item-buy {
+  width: 180px;
+  height: 43px;
+  margin: 0 auto;
+  display: block;
+  font: 19.83px/43px "TrebuchetMSBold";
+  color: #fff;
+  background: #b03c11;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.68);
+  border-radius: 30px;
+}
+
+.catalog__item-buy:hover {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.68);
+  margin-top: 2px;
+}
+
+.pagination {
+  width: 100%;
+  text-align: center;
+}
+
+.pagination__list {
+  display: inline-block;
+}
+
+.pagination__item {
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.pagination__link {
+  text-align: center;
+  display: block;
+  color: #fff;
+  font: 14.21px/29px "TrebuchetMSBold";
+  background: #236565;
+  width: 29px;
+  border-radius: 5px;
+}
+
+.pagination__link-active, .pagination__link:hover {
+  background: #b03c11;
+}
+
+/* КАРТОЧКА ТОВАРА */
+.cart__left {
+  float: left;
+  width: 368px;
+  height: 295px;
+}
+
+.cart__left-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cart__right {
+  float: right;
+  width: 322px;
+  height: 295px;
+}
+
+.cart__title {
+  font: 20.83px "TrebuchetMSBold";
+  color: #236565;
+}
+
+.cart__price {
+  font: 25px "TrebuchetMSBold";
+  color: #b03c11;
+  margin: 29px 0 30px 0;
+}
+
+.cart__status {
+  font: 16.67px/29px "TrebuchetMSRegular";
+  color: #333333;
+}
+
+.cart__delivery {
+  font: 16.67px/29px "TrebuchetMSRegular";
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.cart__sum {
+  margin-bottom: 29px;
+}
+
+.cart__sum-text {
+  font: 16.67px "TrebuchetMSRegular";
+  color: #333333;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.cart__sum-input {
+  width: 56px;
+  height: 31px;
+  box-sizing: border-box;
+  border: 3px solid #236565;
+  background: transparent;
+  color: #333333;
+  font: 16.67px "TrebuchetMSRegular";
+  text-align: center;
+  margin-right: 20px;
+}
+
+.cart__bay-button {
+  text-align: center;
+  display: block;
+  width: 203px;
+  height: 59px;
+  color: #fff;
+  font: 22px/59px "TrebuchetMSBold";
+  border-radius: 5px;
+  background: #b03c11;
+  box-sizing: border-box;
+}
+
+.cart__desc {
+  width: 100%;
+  text-align: left;
+  font: 14.58px/19px "TrebuchetMSRegular";
+  color: #333333;
+  clear: both;
+}
+
+.cart__desc-title {
+  color: #236565;
+  font: 20.83px/29.17px "TrebuchetMSBold";
+  margin-top: 37px;
+  margin-bottom: 27px;
+}
+
+.options__item-col1 {
+  display: inline-block;
+  width: 265px;
+}
+
+.right__sidebar {
+  width: 247px;
+  box-sizing: border-box;
+  float: right;
+  position: relative;
+  background: #fff;
+}
+
+.right__sidebar:before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 1033px;
+  background: #eeeeee;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
+
+.right__sidebar-title {
+  font: 18.75px "TrebuchetMSRegular";
+  color: #333333;
+  height: 53px;
+  width: 100%;
+  text-align: left;
+  margin-left: 15px;
+}
+
+/* ПРАВЫЙ САЙД БАР КАТАЛОГА */
+.form__filtr {
+  margin-left: 15px;
+}
+
+.form__filtr:after {
+  content: "";
+  width: 124px;
+  height: 1px;
+  background: #e0e0e0;
+  display: block;
+  margin-top: 31px;
+}
+
+.form__filtr-desc {
+  font: 14.58px "TrebuchetMSRegular";
+  color: #333333;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form__filtr-input {
+  width: 76px;
+  height: 27px;
+  box-sizing: border-box;
+  border: 3px solid #236565;
+  background: transparent;
+  color: #333333;
+  font: 14.58px "TrebuchetMSRegular";
+  text-align: center;
+  margin-right: 20px;
+}
+
+.form__filtr-input::-webkit-input-placeholder {
+  color: #333333;
+}
+
+.form__filtr-input::-moz-placeholder {
+  color: #333333;
+}
+
+/* Firefox 19+ */
+.form__filtr-input:-moz-placeholder {
+  color: #333333;
+}
+
+/* Firefox 18- */
+.form__filtr-input:-ms-input-placeholder {
+  color: #333333;
+}
+
+.form__filtr-submit {
+  border: none;
+  background: #b03c11;
+  color: #fff;
+  text-align: center;
+  width: 158px;
+  border-radius: 5px;
+  font: 14.58px/25px "TrebuchetMSRegular";
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+.right__sidebar-brand {
+  margin-top: 30px;
+}
+
+.brand__tittle {
+  font: 18.75px "TrebuchetMSRegular";
+  color: #333333;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.brand__link {
+  display: block;
+  font: 13.33px/27px "TrebuchetMSRegular";
+  color: #333333;
+  background: #e0e9e9;
+  border-bottom: 2px solid #dbdbdb;
+  margin-bottom: 2px;
+  text-align: left;
+  padding-left: 14px;
+}
+
+.right__sidebar-input {
+  display: none;
+}
+
+.right__sidebar-label {
+  width: 120px;
+  height: 35px;
+  position: absolute;
+  top: 42px;
+  left: -77px;
+  background: #b03c11;
+  z-index: 50;
+  display: none;
+  color: #fff;
+  font: 19px/35px "TrebuchetMSBold";
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border-radius: 0 0 100% 100%;
+}
+
+/* ПРАВЫЙ САЙД БАР КАРТОЧКИ ТОВАРОВ */
+.offers__item {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+
+.offers__item:after {
+  content: '';
+  width: 104px;
+  height: 1px;
+  background: #dbdbdb;
+  display: inline-block;
+}
+
+.offers__top {
+  width: 193px;
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+.offers__title {
+  text-align: center;
+  font: 14.58px/17px "TrebuchetMSRegular";
+  color: #333333;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.offers__price {
+  font: 18.75px/29px "TrebuchetMSRegular";
+  color: #333333;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.footer__container {
+  width: 100%;
+  min-height: 118px;
+  box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.41);
+  color: #333333;
+  font: 14.58px/22.08px "TrebuchetMSRegular";
+}
+
+.footer__menu {
+  display: none;
+}
+
+.footer__left {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.footer__right {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.address__list {
+  text-align: left;
+  display: inline-block;
+  margin-top: 31px;
+  margin-right: 19px;
+}
+
+.footer__contact {
+  text-align: left;
+  display: inline-block;
+  margin: 31px 0 0 135px;
+}
+
+.vertical__aline {
+  height: 112px;
+}
+
+.vertical__aline:before {
+  content: '';
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copyright {
+  display: inline-block;
+  font: 12.5px/22.08px "TrebuchetMSRegular";
+  color: #333333;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1270px) {
+  .container {
+    max-width: 1010px;
+  }
+  .header__title {
+    margin: 10px 0;
+  }
+  .menu__item {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+  .menu__item-text__right,
+  .menu__item-text__left {
+    text-align: center;
+  }
+  .main {
+    width: 75%;
+  }
+  .slider__container {
+    width: 97%;
+  }
+  .right__sidebar-none {
+    display: none;
+  }
+  .right__sidebar {
+    position: fixed;
+    top: 10%;
+    right: -247px;
+    z-index: 10;
+  }
+  .right__sidebar:before {
+    content: none;
+  }
+  .right__sidebar-label {
+    display: block;
+  }
+  .right__sidebar-input:checked + .right__sidebar-label + .right__sidebar {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .header {
+    height: 180px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+  }
+  .main {
+    position: relative;
+    z-index: 1;
+  }
+  .header__contact {
+    float: none;
+    display: inline-block;
+    height: auto;
+    width: initial;
+    margin-bottom: 10px;
+  }
+  .contact__tel,
+  .contact__email {
+    margin: 0;
+  }
+  .logo {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 170px;
+  }
+  .logo__link {
+    margin: 0;
+  }
+  .logo__img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .header__menu {
+    display: none;
+  }
+  .contact__tel {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .contact__email {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .contact__graph {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .basket__bottom {
+    display: none;
+  }
+  .header__basket {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 71%;
+    right: 2%;
+  }
+  .basket__top-link {
+    color: transparent;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+  .left__sidebar-title {
+    display: none;
+  }
+  .left__sidebar-label {
+    display: block;
+    position: absolute;
+    top: 69%;
+    left: 2.4%;
+    z-index: 100;
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(to bottom, #000 0%, #000 20%, transparent 20%, transparent 40%, #000 40%, #000 60%, transparent 60%, transparent 80%, #000 80%, #000 100%);
+  }
+  .left__sidebar {
+    position: absolute;
+    top: 180px;
+    z-index: 5;
+    background: #fff;
+    left: -250px;
+  }
+  .main {
+    width: 100%;
+  }
+  .main__content-catalog {
+    float: none;
+    margin: 0 auto;
+  }
+  .catalog__pos {
+    padding-left: 10px;
+  }
+  .catalog__list {
+    padding: 0;
+  }
+  .services__list {
+    max-width: 757px;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .footer__left {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  .footer__right {
+    padding: 10px 0 20px 30px;
+  }
+  .address__list,
+  .footer__contact {
+    margin: 0;
+  }
+  .footer__menu {
+    display: block;
+    width: 40%;
+    float: right;
+    height: inherit;
+    padding: 20px 30px 20px 0;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .services__list {
+    max-width: 497px;
+  }
+  .cart__left {
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .cart__price {
+    margin: 20px 0 10px 0;
+  }
+  .cart__right {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .catalog__list {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services__list {
+    text-align: center;
+    padding: 0;
+  }
+  .slider__container {
+    display: none;
+  }
+  .footer__left,
+  .footer__right {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 0 10px 20px;
+  }
+  .footer__contact,
+  .address__list {
+    margin: 0;
+  }
+  .footer__menu {
+    display: block;
+    float: right;
+    width: 40%;
+    height: auto;
+    padding-right: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+  .menu__item {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: right;
+  }
+  .catalog__pos {
+    padding-left: 20px;
+  }
+  .catalog__list {
+    text-align: center;
+    padding: 0;
+  }
+  .catalog__item {
+    float: none;
+  }
+  .main__content-cart {
+    padding: 0;
+    text-align: center;
+  }
+  .cart__left,
+  .cart__right {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    float: none;
+    display: inline-block;
+  }
+  .cart__left {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .cart__list {
+    text-align: left;
+  }
+  .cart__price {
+    margin: 20px 0 10px 0;
+  }
+  .cart__desc {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .options__item-col1 {
+    display: inline-block;
+    width: 100%;
+  }
+  .home__page-bottom {
+    padding: 25px 10px 0 10px;
+    box-sizing: border-box;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

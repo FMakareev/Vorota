@@ -1,0 +1,49 @@
+.footer__container {
+    width: 100%;
+    min-height: 118px;
+    box-shadow: 0px 0px 49px 0px rgba(0, 0, 0, 0.41); 
+    color: #333333;
+    font: 14.58px/22.08px "TrebuchetMSRegular";
+}
+.footer__menu{
+    display: none;
+}
+.footer__left {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.footer__right {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.address__list {
+    text-align: left;
+    display: inline-block;
+    margin-top: 31px;
+    margin-right: 19px;
+}
+.address__title {}
+.address__desc {}
+.footer__contact {
+    text-align: left;
+    display: inline-block;
+    margin: 31px 0 0 135px;
+}
+.vertical__aline {
+    height: 112px;
+    &:before {
+        content: '';
+        width: 0;
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.copyright {
+    display: inline-block;
+    font: 12.5px/22.08px "TrebuchetMSRegular";
+    color: #333333;
+    vertical-align: middle;
+}

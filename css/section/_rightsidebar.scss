@@ -1,0 +1,174 @@
+.right__sidebar {
+    width: 247px;
+    box-sizing: border-box;
+    float: right;
+    position: relative;
+    background: #fff;
+    &:before {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 1033px;
+        background: #eeeeee;
+        position: absolute;
+        left: 0;
+        top: 14px;
+    }
+}
+.right__sidebar-title {
+    font: 18.75px "TrebuchetMSRegular";
+    color: #333333;
+    height: 53px;
+    width: 100%;
+    text-align: left;
+    margin-left: 15px
+}
+/* ПРАВЫЙ САЙД БАР КАТАЛОГА */
+.form__filtr {
+    margin-left: 15px;
+    &:after {
+        content: "";
+        width: 124px;
+        height: 1px;
+        background: #e0e0e0;
+        display: block;
+        margin-top: 31px;
+    }
+}
+.form__filtr-desc {
+    font: 14.58px "TrebuchetMSRegular";
+    color: #333333;
+    display: block;
+    margin-bottom: 20px;
+}
+.form__filtr-input {
+    width: 76px;
+    height: 27px;
+    box-sizing: border-box;
+    border: 3px solid #236565;
+    background: transparent;
+    color: #333333;
+    font: 14.58px "TrebuchetMSRegular";
+    text-align: center;
+    margin-right: 20px;
+}
+.form__filtr-input::-webkit-input-placeholder {
+    color: #333333;
+}
+.form__filtr-input::-moz-placeholder {
+    color: #333333;
+}
+/* Firefox 19+ */
+.form__filtr-input:-moz-placeholder {
+    color: #333333;
+}
+/* Firefox 18- */
+.form__filtr-input:-ms-input-placeholder {
+    color: #333333;
+}
+.form__filtr-submit {
+    border: none;
+    background: #b03c11;
+    color: #fff;
+    text-align: center;
+    width: 158px;
+    border-radius: 5px;
+    font: 14.58px/25px "TrebuchetMSRegular";
+    cursor: pointer;
+    margin-top: 13px;
+}
+.right__sidebar-brand {
+    margin-top: 30px;
+}
+.brand__tittle {
+    font: 18.75px "TrebuchetMSRegular";
+    color: #333333;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.brand__item {}
+.brand__link {
+    display: block;
+    font: 13.33px/27px "TrebuchetMSRegular";
+    color: #333333;
+    background: #e0e9e9;
+    border-bottom: 2px solid #dbdbdb;
+    margin-bottom: 2px;
+    text-align: left;
+    padding-left: 14px;
+}
+
+.right__sidebar-input{display: none;}
+.right__sidebar-label{
+    width: 120px;
+    height: 35px;
+    position: absolute;    
+    top: 42px;
+    left: -77px;
+    background: #b03c11;
+    z-index: 50;
+    display: none;
+    color: #fff;
+    font: 19px/35px "TrebuchetMSBold";
+    text-transform: uppercase;
+    text-align: center;
+    transform: rotate(90deg);
+    border-radius: 0 0 100% 100%;
+}
+
+
+/* ПРАВЫЙ САЙД БАР КАРТОЧКИ ТОВАРОВ */
+.right__sidbar-offers{}
+
+.offers__item{
+    width: 100%;    
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    &:after{
+        content: '';
+        width: 104px;
+        height: 1px;
+        background: #dbdbdb;
+        display: inline-block;        
+    }
+}
+
+.offers__top{
+    width: 193px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+.offers__img{}
+.offers__title{
+    text-align: center;
+    font: 14.58px/17px "TrebuchetMSRegular";
+    color: #333333;
+    margin: 20px 0;
+    display: inline-block;
+}
+.offers__price{
+    font: 18.75px/29px "TrebuchetMSRegular";
+    color: #333333;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

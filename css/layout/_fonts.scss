@@ -1,0 +1,132 @@
+/*  font-family: "TrebuchetMSBold"; */
+@font-face {
+    font-family: "TrebuchetMSBold";
+    src: local("Trebuchet MS Bold");    
+    src: url("/fonts/TrebuchetMS/TrebuchetMSBold/Trebuchet MS Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*  font-family: "TrebuchetMSBoldItalic"; */
+@font-face {
+    font-family: "TrebuchetMSBoldItalic";
+    src: local("Trebuchet MS Bold Italic");    
+    src: url("/fonts/TrebuchetMS/TrebuchetMSBoldItalic/Trebuchet MS Bold Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*  font-family: "TrebuchetMSItalic"; */
+@font-face {
+    font-family: "TrebuchetMSItalic";
+    src: local("Trebuchet MS Italic");    
+    src: url("/fonts/TrebuchetMS/TrebuchetMSItalic/Trebuchet MS Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*  font-family: "TrebuchetMSRegular"; */
+@font-face {
+    font-family: "TrebuchetMSRegular";
+    src: local("Trebuchet MS Regular");    
+    src: url("/fonts/TrebuchetMS/TrebuchetMSRegular/Trebuchet MS Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*  font-family: "GeorgiaBold"; */
+@font-face {
+    font-family: "GeorgiaBold";
+    src: local("Georgia Bold");    
+    src: url("/fonts/Georgia/GeorgiaBold/Georgia Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "Georgia Bold Italic"; */
+@font-face {
+    font-family: "GeorgiaBoldItalic";
+    src: local("Georgia Bold Italic");    
+    src: url("/fonts/Georgia/GeorgiaBoldItalic/Georgia Bold Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GeorgiaItalic"; */
+@font-face {
+    font-family: "GeorgiaItalic";
+    src: local("Georgia Italic");    
+    src: url("/fonts/Georgia/GeorgiaItalic/Georgia Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GeorgiaItalic"; */
+@font-face {
+    font-family: "Georgia Regular";
+    src: local("Georgia Regular");    
+    src: url("/fonts/Georgia/GeorgiaRegular/Georgia Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: local("Myriad Pro Regular");
+    src: url("/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+    src: url("/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+    font-family: "MyriadProBold";
+    src: local("Myriad Pro Bold");
+    src: url("/fonts/MyriadPro/MyriadProBold/MyriadProBold.eot");
+    src: url("/fonts/MyriadPro/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadPro/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("/fonts/MyriadPro/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProItalic"; */
+@font-face {
+    font-family: "MyriadProItalic";
+    src: local("Myriad Pro Italic");
+    src: url("/fonts/MyriadPro/MyriadProItalic/MyriadProItalic.eot");
+    src: url("/fonts/MyriadPro/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadPro/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("/fonts/MyriadPro/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: local("Myriad Pro Light");
+    src: url("/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBoldItalic"; */
+@font-face {
+    font-family: "MyriadProBoldItalic";
+    src: local("Myriad Pro Bold Italic");
+    src: url("/fonts/MyriadPro/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+    src: url("/fonts/MyriadPro/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadPro/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+    url("/fonts/MyriadPro/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBoldItalic"; */
+@font-face {
+    font-family: "MyriadProSemiBoldItalic";
+    src: local("Myriad Pro Semi Bold Italic");
+    src: url("/fonts/MyriadPro/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+    src: url("/fonts/MyriadPro/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadPro/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+    url("/fonts/MyriadPro/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
